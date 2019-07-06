@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.0" width="90" height="85">
+<defs>
+<rect x="5" y="5" width="15px" height="70"   rx="10" ry="10" stroke-width="10" stroke="black" id="a" /> 
+
+</defs>
+
+
+
+<use xlink:href="#a" />
+<circle r="8" fill="red" cx="12" cy="12" >
+<animate attributeName="fill" to="lime" dur="1s" repeatCount = "indefinite"/>
+</circle>
+<circle r="8" fill="grey" cx="12" cy="32" />
+<circle r="8" fill="grey" cx="12" cy="52" />
+<text font-size="20" x="7" y="60" font-family="arial" fill = "black">1</text>
+
+<g transform="translate(30,0)">
+<use xlink:href="#a" />
+<circle r="8" fill="grey" cx="12" cy="12" />
+<circle r="8" fill="yellow" cx="12" cy="32" >
+<animate attributeName="fill" to="red" dur="5s" repeatCount = "indefinite"/>
+</circle>
+<circle r="8" fill="grey" cx="12" cy="52" />
+
+<text font-size="20" x="7" y="60" font-family="arial">2</text>
+</g>
+
+<g transform="translate(60,0)">
+<use xlink:href="#a" />
+<circle r="8" fill="grey" cx="12" cy="12" />
+<circle r="8" fill="grey" cx="12" cy="32" />
+<circle r="8" fill="lime" cx="12" cy="52" >
+<animate attributeName="fill" to="orange" dur="2s" repeatCount = "indefinite"/>
+</circle>
+<text font-size="20" x="7" y="60" font-family="arial">3</text>
+</g>
+
+<!--
+<g transform="translate(90,0)">
+<use xlink:href="#a" />
+<circle r="8" fill="grey" cx="12" cy="12" />
+<circle r="8" fill="yellow" cx="12" cy="32" />
+<circle r="8" fill="grey" cx="12" cy="52" />
+<text font-size="20" x="7" y="60" font-family="arial">4</text>
+</g>
+-->
+
+</svg>
